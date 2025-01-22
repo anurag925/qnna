@@ -1,6 +1,6 @@
 // internal/middleware/auth.go
 
-package middleware
+package middlewares
 
 import (
 	"context"
