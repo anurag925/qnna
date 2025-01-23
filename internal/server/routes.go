@@ -17,11 +17,6 @@ func (s *Rest) routes() {
 		root.GET("/health", s.handles.Health)
 
 	}
-	app := s.router.Group("/app")
-	{
-		app.GET("/signup", s.handles.SignUp)
-	}
-
 	apiV1 := root.Group("/api/v1")
 	{
 		apiV1.POST("/signup", s.handles.SignUp)

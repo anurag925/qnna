@@ -8,16 +8,12 @@ import (
 
 	"github.com/anurag925/qnna/internal/models"
 	"github.com/anurag925/qnna/internal/utils"
-	"github.com/anurag925/qnna/templates"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
 	"golang.org/x/crypto/bcrypt"
 )
 
 func (h *handler) SignUp(c echo.Context) error {
-	if h.isGet(c) {
-		return h.render(c, http.StatusOK, templates.SignUp())
-	}
 	var userInput struct {
 		Email    string `json:"email" validate:"required,email"`
 		Password string `json:"password" validate:"required,min=8"`
