@@ -15,8 +15,6 @@ require (
 	github.com/lmittmann/tint v1.0.5
 	github.com/pandoratoolbox/bun/extra/bunslog v0.0.0-20240419144920-8d9f15e33ce6
 	github.com/samber/slog-echo v1.15.0
-	github.com/shibaone/agreements-service v0.0.22-test
-	github.com/shibaone/shib-ticketing-tickets-service v1.0.61-test
 	github.com/uptrace/bun v1.2.8
 	github.com/uptrace/bun/dialect/sqlitedialect v1.2.8
 	github.com/uptrace/bun/driver/sqliteshim v1.2.8
@@ -30,7 +28,6 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/guregu/null/v5 v5.0.0 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
@@ -39,6 +36,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-sqlite3 v1.14.24 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
+	github.com/pandoratoolbox/json v1.15.7 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.4.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect

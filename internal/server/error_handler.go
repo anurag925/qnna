@@ -6,11 +6,11 @@ import (
 	"log/slog"
 	"net/http"
 
+	"github.com/anurag925/qnna/pkg/api"
+	"github.com/anurag925/qnna/pkg/errs"
 	"github.com/getsentry/sentry-go"
 	sentryecho "github.com/getsentry/sentry-go/echo"
 	"github.com/labstack/echo/v4"
-	"github.com/shibaone/agreements-service/pkg/api"
-	"github.com/shibaone/agreements-service/pkg/errs"
 )
 
 func customHTTPErrorHandler(err error, c echo.Context) {
