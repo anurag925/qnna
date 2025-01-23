@@ -54,7 +54,3 @@ func (s *Rest) printRoutes() error {
 	}
 	return nil
 }
-
-// 1) integration with user service
-// 2) setup of nats
-// 3) ads redirection service setup d
